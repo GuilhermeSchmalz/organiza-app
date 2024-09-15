@@ -13,9 +13,7 @@
     "next": "14.2.6",
     "react": "^18",
     "react-bootstrap": "^2.10.4",
-    "react-dom": "^18",
-    "react-router-bootstrap": "^0.26.3",
-    "react-router-dom": "^6.26.1"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",

@@ -1,4 +1,4 @@
-import NavBar from "@/components/VerticalBar/NavBar"
+import NavBar from "@/components/NavBar/NavBar"
 import LoginForm from "@/components/LoginForm/LoginForm"
 
 function Dashboard() {

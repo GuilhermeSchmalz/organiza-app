@@ -1,5 +1,4 @@
 import { Container, Nav, Navbar, NavDropdown, Form, Button } from "react-bootstrap";
-import { LinkContainer } from 'react-router-bootstrap'
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function NavBar() {
@@ -9,6 +8,7 @@ function NavBar() {
       expand="lg"
       className="bg-body-tertiary"
       sticky="top"
+      fixed="top"
     >
       <Container>
         <Navbar.Brand href="/">Organiza</Navbar.Brand>
