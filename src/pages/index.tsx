@@ -1,8 +1,10 @@
-import Image from "next/image";
-import VerticalBar from "@/components/VerticalBar/verticalBar"
+import WelcomePage from "@/pages/welcome/WelcomePage";
+import LoginForm from "@/components/LoginForm/LoginForm";
 
 export default function Home() {
   return (
-    <VerticalBar />
+    <>
+      <WelcomePage />
+    </>
   );
 }
