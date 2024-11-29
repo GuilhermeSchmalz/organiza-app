@@ -1,5 +1,6 @@
 import { Container, Nav, Navbar, NavDropdown, Form, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Link from "next/link";
 
 function NavBar() {
   return (
@@ -43,10 +44,12 @@ function NavBar() {
                   <span></span>
                 </Button>
               </Form>
-              <Nav.Link href="#configuracao">Configurações</Nav.Link>
-              <Nav.Link eventKey={2} href="#cadastro">
-                Registre-se
+              <Nav.Link href="#configuracao">
+                Configurações
               </Nav.Link>
+              <Link href="/login/Login">
+                Login
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

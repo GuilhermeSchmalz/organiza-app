@@ -9,9 +9,9 @@ const WelcomePage: React.FC = () => {
         <Container className="d-flex justify-content-center align-items-center" style={{ minHeight: '100vh' }}>
         <Row>
           <Col className="text-center">
-            <h1>Welcome to MyApp!</h1>
-            <p>Your journey to amazing experiences begins here.</p>
-            <Button variant="primary" size="lg" href="#get-started">Get Started</Button>
+            <h1>Bem-vindo(a) ao Organiza!</h1>
+            <p>O app definitivo para controle de finanças pessoais.</p>
+            <Button variant="primary" size="lg" href="#get-started">Saiba mais!</Button>
           </Col>
         </Row>
       </Container>
