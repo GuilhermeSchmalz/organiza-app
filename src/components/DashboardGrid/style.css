@@ -1,0 +1,26 @@
+.full-screen-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+.dashboard-content {
+    flex: 1;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dashboard-title {
+    text-align: left;
+    width: 100%;
+}
+
+.dashboard-grid-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+

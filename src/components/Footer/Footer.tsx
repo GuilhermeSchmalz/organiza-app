@@ -1,27 +1,17 @@
-import { Container, Row, Col, Nav, Image, Button, NavLink } from "react-bootstrap";
+import { Container, Row, Col, Nav, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./style.css";
 
 function Footer() {
     return (
-        <footer>
-            <Container fluid>
-                <Row className="bg-body-tertiary text-white">
-                    <Col className="mx-5">
-                        <Image src="" alt="Organiza Logo"/>
-                    </Col>
-                    <Col className="justify-items-center">
-                        <Nav className="flex-row fs-5">
-                        <Nav.Link href="#painel">Painel</Nav.Link>
-                        <Nav.Link href="#receitas&despesas">Receitas e Despesas</Nav.Link>
-                        <Nav.Link href="#orcamentos">Orçamentos</Nav.Link>
-                        <Nav.Link href="#investimentos">Investimentos</Nav.Link>
-                        <Nav.Link href="#relatorios">Relatórios</Nav.Link>
-                        </Nav>
-                    </Col>
-                    <Col>
-                    
-                    </Col>
-                </Row>
+        <footer id="footer" className="bg-dark text-white text-center py-2 mt-auto">
+            <Container>
+                <p>&copy; {new Date().getFullYear()} Organiza. Todos os direitos reservados.</p>
+                <Nav className="justify-content-center">
+                    <Nav.Link href="#privacy" className="text-white">Política de Privacidade</Nav.Link>
+                    <Nav.Link href="#terms" className="text-white">Termos de Uso</Nav.Link>
+                    <Nav.Link href="#contact" className="text-white">Contate-nos</Nav.Link>
+                </Nav>
             </Container>
         </footer>
     );
