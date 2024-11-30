@@ -6,7 +6,7 @@ function Outcomes() {
   return (
     <>
       <NavBar />
-      <LoginForm />
+      
       <Footer />
     </>
   );

@@ -1,15 +1,16 @@
 import { Container, Row, Col, Nav, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./style.css";
 
 function Footer() {
     return (
-        <footer className="bg-dark text-white text-center py-4 mt-auto">
+        <footer id="footer" className="bg-dark text-white text-center py-2 mt-auto">
             <Container>
-                <p>&copy; {new Date().getFullYear()} MyApp. All rights reserved.</p>
+                <p>&copy; {new Date().getFullYear()} Organiza. Todos os direitos reservados.</p>
                 <Nav className="justify-content-center">
-                    <Nav.Link href="#privacy" className="text-white">Privacy Policy</Nav.Link>
-                    <Nav.Link href="#terms" className="text-white">Terms of Service</Nav.Link>
-                    <Nav.Link href="#contact" className="text-white">Contact Us</Nav.Link>
+                    <Nav.Link href="#privacy" className="text-white">Política de Privacidade</Nav.Link>
+                    <Nav.Link href="#terms" className="text-white">Termos de Uso</Nav.Link>
+                    <Nav.Link href="#contact" className="text-white">Contate-nos</Nav.Link>
                 </Nav>
             </Container>
         </footer>

@@ -6,9 +6,14 @@ function SinginForm() {
   return (
     <Container>
       <Form style={{ maxWidth: "400px", margin: "0 auto", padding: "1rem" }}>
+      <Form.Group className="mb-3" controlId="formBasicName">
+          <Form.Label>Nome Completo</Form.Label>
+          <Form.Control type="name" placeholder="John Dow" />
+        </Form.Group>
+
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email</Form.Label>
-          <Form.Control type="email" placeholder="fulano@email.com.br" />
+          <Form.Control type="email" placeholder="johndow@email.com.br" />
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicPassword">

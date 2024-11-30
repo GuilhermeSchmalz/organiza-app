@@ -1,4 +1,4 @@
-import Welcome from "@/pages/welcome/Welcome";
+import Welcome from "@/pages/Welcome";
 
 export default function Home() {
   return (

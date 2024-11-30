@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Form, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Link from "next/link";
 
 function LoginForm() {
   return (
@@ -14,6 +15,10 @@ function LoginForm() {
         <Form.Group className="mb-3" controlId="formBasicPassword">
           <Form.Label>Senha</Form.Label>
           <Form.Control type="password" placeholder="********" />
+        </Form.Group>
+
+        <Form.Group className="mb-3" controlId="formBasicPassword">
+          <Form.Label>Ainda não é cadastrado? <Link href="/Signin"> Registre-se</Link></Form.Label>
         </Form.Group>
 
         <Button variant="primary" type="submit" className="w-100">
