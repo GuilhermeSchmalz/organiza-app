@@ -52,7 +52,7 @@ function NavBar() {
                   <span>Buscar</span>
                 </Button>
               </Form>
-              <Link href="#configuracao" id="navbar-link" className="rounded-md px-3 py-2">
+              <Link href="/Settings" id="navbar-link" className="rounded-md px-3 py-2">
                 Configurações
               </Link>
               <NavDropdown title="Login" id="collapsible-nav-dropdown">
